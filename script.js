@@ -167,8 +167,8 @@ window.onload=function()
 		}
 		
 		x+=dx*2;
-		if(x<0) x=300;
-		if(x>300) x=0;
+		if(x<0) x=250;
+		if(x>250) x=0;
 		
 		if(fall) 
 		{
@@ -255,8 +255,8 @@ window.onload=function()
 		
 		drawDoodler(x,y);
 		ctx.globalAlpha=0.5;
-		if(x-35<0) drawDoodler(x+300,y);
-		else if(x+35>300) drawDoodler(x-300,y);
+		if(x-35<0) drawDoodler(x+250,y);
+		else if(x+35>250) drawDoodler(x-250,y);
 		ctx.restore();
 	};
 }
