@@ -8,7 +8,7 @@ window.onload=function()
 	var canvas=document.getElementById("game"),
 		ctx=canvas.getContext("2d");
 	  
-	var width=300,
+	var width=250,
 		height=450;
 	canvas.width=width;
 	canvas.height=height;
